@@ -1,0 +1,31 @@
+/* *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+} */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000;
+}
+
+.container{
+    max-width: 1140px;
+    margin: 5% auto 0;
+}
+.box-wrapper{
+    background-color: #ddd;
+    padding: 30px;
+    border-radius: 20px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.box-wrapper h2{
+    font-size: 25px;
+    cursor: pointer;
+}
+.box-wrapper p{
+    font-size: 16px;
+    line-height: 1.5;
+    display: none;
+}
+
